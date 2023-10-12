@@ -10,3 +10,18 @@ git add <檔名> (將檔案加入追蹤名單)
 git commit -m "版本名稱" (儲存新版本)
 
 git push -u origin master (將檔案上傳github)
+
+-----------------------------------------------------------------------------
+branch說明
+
+git branch <branchname> (創建新分支)
+
+git checkout <branchname> (切換到新分支)
+
+git commit -m "版本名稱" (更改完分支，儲存新版本)
+
+git checkout <主分支名稱> (切換回主分支)
+
+git merge <branchname> (將新分支合併到主分支)
+
+git branch -d <branchname> (將新分支刪除)
