@@ -1,0 +1,12 @@
+cd 進資料夾
+
+git init (創建git環境)
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"         (設定使用者)
+ 
+git add <檔名> (將檔案加入追蹤名單)
+
+git commit -m "版本名稱" (儲存新版本)
+
+git push -u origin master (將檔案上傳github)
