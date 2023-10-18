@@ -16,6 +16,6 @@
 ## Kernel 編譯/新增System call的過程所遇到的問題
 我主要是參考以下教學步驟：
 
->https://hackmd.io/MBn8nRiLQFy66B0L_RFevg?view#Result
->https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/
->https://dev.to/jasper/adding-a-system-call-to-the-linux-kernel-5-8-1-in-ubuntu-20-04-lts-2ga8
+><https://hackmd.io/MBn8nRiLQFy66B0L_RFevg?view#Result>
+><https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/>
+><https://dev.to/jasper/adding-a-system-call-to-the-linux-kernel-5-8-1-in-ubuntu-20-04-lts-2ga8>
