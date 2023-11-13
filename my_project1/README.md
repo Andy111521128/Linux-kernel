@@ -218,11 +218,14 @@ struct data_
 typedef struct data_ sdata ;
 static __thread  sdata  tx ;  //thread local variable
 
-int a=123;  //global variable
+int a=123 ;  //global variable
+int bss ;   // uninitialized data(bss)
 
 void hello(int pid)
 {
 	int b=10;   //local varialbe
+	int *heap = malloc((sizeof(int)) ;  // heap
+	*heap = 100 ;
 
 	b=b+pid;
                                  //global variable
@@ -247,7 +250,13 @@ void hello(int pid)
         printf("the offset of the logical address of library function printf is %p, ", printf);
         printf("the physical address of library function printf is %p\n", get_physical_addresses(printf));
         printf("====================================================================================================================\n");
-}  
+}
+
+void delay(unsigned int milliseconds)
+{
+	clock_t start = clock() ;
+	while((clock() - start) * 1000 / CLOCKS_PER_SEC < milliseconds) ;
+}
 
 void *func1(void *arg)
 {
@@ -287,8 +296,10 @@ int main()
         char p[2][16] ;
         strcpy(p[0],"Thread1") ;
         pthread_create(&id[0],NULL,func1,(void *)p[0]);
+	delay(1000) ;
         strcpy(p[1],"Thread2") ;
         pthread_create(&id[1],NULL,func2,(void *)p[1] );
+	delay(1000) ;
 
 
         int pid  ;
