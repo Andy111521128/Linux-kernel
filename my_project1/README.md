@@ -3,10 +3,9 @@
 # Project1
 <div style="text-align: center;"><span class="t1">第19組 彭冠銘 江旭崧 謝友倫</span></div>
 
-:::info
 - 實做一個 system call ，將 virtual address 轉為 physical address
 - 利用這個 system call 將 thread/process 每個 segment 的 memory location 找出來 ，並把 project address space layout 畫出來
-:::
+
 
 ## Kernel 與 OS 版本
 - Linux Kernel 5.8.1
