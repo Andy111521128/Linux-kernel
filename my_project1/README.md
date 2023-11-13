@@ -310,25 +310,3 @@ int main()
 
 
 
-
-
-
-
-
-
-
-
- <style>
-    .head1{
-        color: rgb(92,104,132);
-        font-size: 50px;
-        font-weight: bold;
-    }
-</style>
- <style>
-    .t1{
-        color: rgb(233, 165, 203);
-        font-size: 20px;
-        font-weight: bold;
-    }
-</style>
