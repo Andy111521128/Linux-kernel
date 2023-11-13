@@ -16,8 +16,8 @@
    
 ## Kernel 編譯與systemcall新增過程
 我們主要是參考這兩篇教學步驟：
--> https://dev.to/jasper/adding-a-system-call-to-the-linux-kernel-5-8-1-in-ubuntu-20-04-lts-2ga8
--> https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/
+> https://dev.to/jasper/adding-a-system-call-to-the-linux-kernel-5-8-1-in-ubuntu-20-04-lts-2ga8
+> https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/
 
 先下載Linux Kernel - 5.8.1
 ```shell=
